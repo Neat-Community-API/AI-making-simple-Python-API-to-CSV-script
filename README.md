@@ -30,12 +30,13 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configure Environment Variables
-1. Open the `.env` file in your preferred text editor
+1. Open the `env_example` file in your preferred text editor
 2. Replace the placeholder values with your actual credentials:
    ```
    API_KEY=your_actual_bearer_token
    ORG_ID=your_actual_organization_id
    ```
+3. Rename the `env_example` file to `.env`
 
 ### 4. Obtaining API Credentials
 To obtain your API credentials from Neat.no:
